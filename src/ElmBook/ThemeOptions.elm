@@ -137,7 +137,7 @@ For instance, if you're using elm-tailwind-modules, this would be really helpful
 
     book "MyApp"
         |> withThemeOptions [
-            globals [ global globalStyles ]
+            ElmBook.ThemeOptions.globals [ global globalStyles ]
         ]
 
 -}
